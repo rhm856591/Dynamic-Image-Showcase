@@ -4,9 +4,7 @@ export default function ImagePage() {
   return (
     <div className="flex justify-center items-center h-screen">
       <div className="flex w-full md:w-4/5 h-3/5 overflow-hidden rounded-3xl relative flex-col md:flex-row">
-        
-        {/* Left Image */}
-        <div className="relative flex-1 transition-all duration-500 ease-in-out group md:hover:flex-[4] flex-[2] md:flex-1 group-hover:flex-[4]">
+        <div className="relative flex-1 transition-all duration-500 ease-in-out group md:hover:flex-[4] hover:flex-[2] md:flex-1">
           <Image
             src="/gym-1.jpg"
             alt="Image 1"
@@ -18,9 +16,7 @@ export default function ImagePage() {
             STRENGTH
           </div>
         </div>
-
-        {/* Center Image */}
-        <div className="relative transition-all duration-500 ease-in-out group md:flex-[2.5] md:hover:flex-[3] flex-[2] group-hover:flex-[2.5]">
+        <div className="relative flex-1 transition-all duration-500 ease-in-out group md:flex-[2.5] md:hover:flex-[3] hover:flex-[3]">
           <Image
             src="/gym-3.jpg"
             alt="Image 2"
@@ -31,9 +27,7 @@ export default function ImagePage() {
             MOBILITY
           </div>
         </div>
-
-        {/* Right Image */}
-        <div className="relative flex-1 transition-all duration-500 ease-in-out group md:hover:flex-[4] flex-[2] md:flex-1 group-hover:flex-[4]">
+        <div className="relative flex-1 transition-all duration-500 ease-in-out group md:hover:flex-[4] hover:flex-[2] md:flex-1">
           <Image
             src="/gym-2.png"
             alt="Image 3"
